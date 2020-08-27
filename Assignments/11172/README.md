@@ -1,4 +1,4 @@
-# UVA 1172
+# UVA 11172
 
 ## Description:
 ### This program is writen in python and all it does is take a select set of numbers to do relasion operators on them (<,>,=) and prints the symbol for each of the relationships.
