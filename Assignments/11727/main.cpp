@@ -8,7 +8,7 @@
 // Semester:         Fall 2020
 //
 // Description:
-//      This program is writen in c++ and all it does is find the middle number 
+//      This program is written in c++ and all it does is find the middle number 
 //  in a set of 3 numbers used for cutting costs
 //
 /////////////////////////////////////////////////////////////////////////////////
