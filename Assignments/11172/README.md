@@ -9,7 +9,7 @@ This program is writen in python and all it does is take a select set of numbers
 |   #   | File                       | Description                                                |
 | :---: | -------------------------- | ---------------------------------------------------------- |
 |   1   | [main.py](./main.py)       | solution file.                                             |
-|   2   | [in.txt](./in)             | Test input file from udebug                                |
+|   2   | [in.txt](./in.txt)         | Test input file from udebug                                |
 
 ### Instructions
 

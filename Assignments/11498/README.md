@@ -9,7 +9,7 @@ This program is writen in python and it takes in sets of cases that are graphs a
 |   #   | File                       | Description                                                |
 | :---: | -------------------------- | ---------------------------------------------------------- |
 |   1   | [main.py](./main.py)       | solution file.                                             |
-|   2   | [in.txt](./in)             | Test input file from udebug                                |
+|   2   | [in.txt](./in.txt)         | Test input file from udebug                                |
 
 ### Instructions
 
