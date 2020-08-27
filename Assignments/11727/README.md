@@ -9,7 +9,7 @@ This program is writen in c++ and all it does is find the middle number in a set
 |   #   | File                       | Description                                                |
 | :---: | -------------------------- | ---------------------------------------------------------- |
 |   1   | [main.cpp](./main.cpp)     | solution file.                                             |
-|   2   | [in.txt](./in)             | Test input file from udebug                                |
+|   2   | [in.txt](./in.txt)         | Test input file from udebug                                |
 
 ### Instructions
 
