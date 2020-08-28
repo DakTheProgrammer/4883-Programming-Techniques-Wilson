@@ -3,7 +3,7 @@
 ## Author:           Dakota Wilson
 ## Email:            dtw3200@live.com
 ## Label:            11498
-## Title:            UVa 11498
+## Title:            UVA 11498
 ## Course:           4883
 ## Semester:         Fall 2020
 ##

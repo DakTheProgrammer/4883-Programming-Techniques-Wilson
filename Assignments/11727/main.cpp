@@ -3,7 +3,7 @@
 // Author:           Dakota Wilson
 // Email:            dtw3200@live.com
 // Label:            11727
-// Title:            UVa 11727
+// Title:            UVA 11727
 // Course:           4883
 // Semester:         Fall 2020
 //
