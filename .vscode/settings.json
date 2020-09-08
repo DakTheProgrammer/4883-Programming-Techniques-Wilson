@@ -4,7 +4,8 @@
         "string": "cpp",
         "stack": "cpp",
         "xstring": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "vector": "cpp"
     },
     "cSpell.words": [
         "Bholder"

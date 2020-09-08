@@ -1,3 +1,20 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+// Author:           Dakota Wilson
+// Email:            dtw3200@live.com
+// Label:            127
+// Title:            UVA 127
+// Course:           4883
+// Semester:         Fall 2020
+//
+// Description:
+//      This program is written in c++ and it takes in a deck of cards and plays
+//  a game of “Accordian” Patience where whenever the card can be moved left 3 
+//  it prioritizes that over moving left 1.
+
+//
+/////////////////////////////////////////////////////////////////////////////////
+
 #include <iostream>
 #include <stack>
 #include <string>
@@ -5,25 +22,23 @@
 
 using namespace std;
 
-const int SIZE = 52;
-
 int main()
 {
     bool run = true;
 
     string card, temp;
 
-    while(run)
+    while (run)
     {
-        vector<stack<string>> Deck(52);
+        vector<stack<string>> Deck(52);                         //deck of cards
 
-        for(int i = 0; i < SIZE; i++)
+        for (int i = 0; i < Deck.size(); i++)
         {
             cin >> card;
-            if(card == "#")
+            if (card == "#")
             {
                 i = 100;
-                run = false;
+                run = false;                                    //breaks on #
             }
             else
             {
@@ -31,44 +46,70 @@ int main()
             }
         }
 
-        for(int i = 0; i < SIZE; i++)
+        if (!run)
         {
-            if(!Deck[i+1].empty() && (Deck[i].top().at(0) == Deck[i+1].top().at(0) || Deck[i].top().at(1) == Deck[i+1].top().at(1)))
-            {
-                Deck[i].push(Deck[i+1].top());
-                Deck[i+1].pop();
+            break;
+        }
 
-                if(Deck[i+1].empty())
+        for (int i = 1; i < Deck.size(); i++)
+        {
+            if (i >= 3 && 
+            (Deck[i].top().at(0) == Deck[i - 3].top().at(0) 
+            || Deck[i].top().at(1) == Deck[i - 3].top().at(1))) //moves card 3
+            {
+
+                Deck[i - 3].push(Deck[i].top());
+                Deck[i].pop();
+
+                if (Deck[i].empty())
                 {
-                    //close gap
+                    Deck.erase(Deck.begin() + i, Deck.begin()   //closes gaps
+                    + (i + 1));
                 }
 
-                i = -1;
+                i -= 4;                                         //reduces index 
+                                                                //efficiently
             }
-            else if(!Deck[i+3].empty() && (Deck[i].top().at(0) == Deck[i+3].top().at(0) || Deck[i].top().at(1) == Deck[i+3].top().at(1)))
+            if (i >= 1 && 
+            (Deck[i].top().at(0) == Deck[i - 1].top().at(0) 
+            || Deck[i].top().at(1) == Deck[i - 1].top().at(1))) //moves cards 1
             {
-                Deck[i].push(Deck[i+3].top());
-                Deck[i+3].pop();
 
-                if(Deck[i+3].empty())
+                Deck[i - 1].push(Deck[i].top());
+                Deck[i].pop();
+
+                if (Deck[i].empty())
                 {
-                    //close gap
+                    Deck.erase(Deck.begin() + i, Deck.begin() + 
+                    (i + 1));                                   //closes gaps
                 }
 
-                i = -1;
+                i -= 2;                                         //reduces index 
+                                                                //efficiently
             }
         }
 
-        cout << Deck.size() << "piles remaining: ";
-
-        for(int i = 0; i < Deck.size(); i++)
+        if(Deck.size() == 1)
         {
-            cout << Deck[i].size() << ' ';
+            cout << Deck.size() << " pile remaining: ";
+        }
+        else
+        {
+            cout << Deck.size() << " piles remaining: ";
         }
         
-        cout << '\n';
+        for (int i = 0; i < Deck.size(); i++)                   //output
+        {
+            cout << Deck[i].size();
 
+            if(i != Deck.size() - 1)
+            {
+                cout << ' ';
+            }
+        }
+
+        cout << '\n';
     }
 
-    return(0);
+    return (0);
 }
