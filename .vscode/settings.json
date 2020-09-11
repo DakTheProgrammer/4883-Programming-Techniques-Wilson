@@ -6,7 +6,8 @@
         "xstring": "cpp",
         "iostream": "cpp",
         "vector": "cpp",
-        "deque": "cpp"
+        "deque": "cpp",
+        "queue": "cpp"
     },
     "cSpell.words": [
         "Bholder"
