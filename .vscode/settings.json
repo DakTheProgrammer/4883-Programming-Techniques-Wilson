@@ -7,7 +7,10 @@
         "iostream": "cpp",
         "vector": "cpp",
         "deque": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "initializer_list": "cpp",
+        "type_traits": "cpp",
+        "xutility": "cpp"
     },
     "cSpell.words": [
         "Bholder"
