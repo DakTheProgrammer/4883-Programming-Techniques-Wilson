@@ -12,8 +12,7 @@
 
 ### Problem solving paradigm:
 
-- For me my biggest problem solving paradigm for this was to trace out the input and output until I truly understood what was happening.
-- Personally I probably went through like 30 sticky notes trying to realize how this "Beiju" text thing actually worked.
+- brute force of just putting things on the front and back of the queue based on the leading [ or ]
 
 ### Data structures chosen:
 
