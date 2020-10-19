@@ -74,4 +74,6 @@ int main()
                                                             //into inorder
 
     PreToPost(PreOrder, InOrder.front(), InOrder.back());
+
+    return 0;
 }
