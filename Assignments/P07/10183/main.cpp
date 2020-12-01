@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	unsigned long long int a, b;
+	int a, b;
 
 	vector<unsigned long long int> FibNums;
 
