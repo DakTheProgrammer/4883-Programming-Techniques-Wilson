@@ -1,8 +1,8 @@
-## 10194 - Football (aka Soccer)
+## 11462 - Age Sort
 ### Dakota Wilson 
 ### Description:
 
-This program is written in c++ and it finds the table for scoring a soccer league/tournament
+This program is written in c++ and it sorts the ages of a given set of people
 
 ### Files
 
@@ -18,5 +18,5 @@ This program is written in c++ and it finds the table for scoring a soccer leagu
 ### Sources
 
 - *http://www.cplusplus.com/reference/algorithm/sort/*
-    - Used to understand sort compare method
+    - Used to understand what algorithm is used in the sort method
 

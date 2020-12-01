@@ -1,3 +1,17 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+// Author:           Dakota Wilson
+// Email:            dtw3200@live.com
+// Label:            10194
+// Title:            10194
+// Course:           4883
+// Semester:         Fall 2020
+//
+// Description:
+//      This program is written in c++ and it finds the table for scoring a
+//	soccer league/tournament
+//
+/////////////////////////////////////////////////////////////////////////////////
 #include <iostream>
 #include <string>
 #include <vector>
@@ -5,6 +19,14 @@
 
 using namespace std;
 
+/////////////////////////////////////////////////////////////////////////
+//      				Struct: struct FootballTeam 
+//
+// Description:
+//      A struct that holds and does algoritms for finding the table
+//	values of a given team.
+//
+/////////////////////////////////////////////////////////////////////////
 struct FootballTeam
 {
 	string name;
@@ -17,6 +39,13 @@ struct FootballTeam
 	int goalAgainst;
 	int goalDiff;
 
+	/////////////////////////////////////////////////////////////////////////
+	//					method: FootballTeam(string x)
+	//
+	// Description:
+	//      A constructor that makes a team with a name and a blank record
+	//
+	/////////////////////////////////////////////////////////////////////////
 	FootballTeam(string x)
 	{
 		name = x;
@@ -30,6 +59,13 @@ struct FootballTeam
 		goalDiff = 0;
 	}
 
+	/////////////////////////////////////////////////////////////////////////
+	//					method: FootballTeam()
+	//
+	// Description:
+	//      A default constructor that makes defaulted everything
+	//
+	/////////////////////////////////////////////////////////////////////////
 	FootballTeam()
 	{
 		name = "";
@@ -43,20 +79,27 @@ struct FootballTeam
 		goalDiff = 0;
 	}
 
+	/////////////////////////////////////////////////////////////////////////
+	//					method: update(int GF, int GA)
+	//
+	// Description:
+	//      A method that updates the teams values
+	//
+	/////////////////////////////////////////////////////////////////////////
 	void update(int GF, int GA)
 	{
 		gamesPlayed++;
 
-		if (GF > GA)
+		if (GF > GA)//win
 		{
 			wins++;
 			points += 3;
 		}
-		else if (GF < GA)
+		else if (GF < GA)//loss
 		{
 			losses++;
 		}
-		else
+		else//tie
 		{
 			ties++;
 			points++;
@@ -68,6 +111,13 @@ struct FootballTeam
 	}
 };
 
+/////////////////////////////////////////////////////////////////////////
+//			function: bool CMPR(FootballTeam a, FootballTeam b)
+//
+// Description:
+//      A used to sort teams based on structure
+//
+/////////////////////////////////////////////////////////////////////////
 bool CMPR(FootballTeam a, FootballTeam b)
 {
 	if(a.points != b.points)
@@ -90,7 +140,7 @@ bool CMPR(FootballTeam a, FootballTeam b)
 	{
 		return a.gamesPlayed < b.gamesPlayed;
 	}
-	else 
+	else //sorts names by upcasing
 	{
 		for(int i = 0; i < a.name.length(); i++)
 		{
@@ -214,7 +264,7 @@ int main()
 
 		cout << TournName << '\n';
 
-		for (int i = 0; i < Teams.size(); i++)
+		for (int i = 0; i < Teams.size(); i++)//display
 		{
 			cout << i + 1 << ") " << Teams[i].name << ' ' << Teams[i].points << "p, " << Teams[i].gamesPlayed
 				<< "g (" << Teams[i].wins << '-' << Teams[i].ties << '-'
