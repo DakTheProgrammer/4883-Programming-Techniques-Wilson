@@ -2,7 +2,7 @@
 ### Dakota Wilson 
 ### Description:
 
-This program is written in c++ and it finds the summation of all of the sunny sides of a mountains in a range
+This program is written in C++ and it finds the summation of all of the sunny sides of a mountains in a range
 
 ### Files
 

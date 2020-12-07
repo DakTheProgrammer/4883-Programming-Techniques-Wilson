@@ -2,7 +2,7 @@
 ### Dakota Wilson 
 ### Description:
 
-This program is written in c++ and it takes in a math equation in infix form and converts it to postfix form using a stack to order how it is displayed 
+This program is written in C++ and it takes in a math equation in infix form and converts it to postfix form using a stack to order how it is displayed 
 
 ### Files
 

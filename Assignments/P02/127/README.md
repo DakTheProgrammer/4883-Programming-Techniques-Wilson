@@ -2,7 +2,7 @@
 ### Dakota Wilson 
 ### Description:
 
-This program is written in c++ and it takes in a deck of cards and plays a game of “Accordian” Patience where whenever the card can be moved left 3 it prioritizes that over moving left 1.
+This program is written in C++ and it takes in a deck of cards and plays a game of “Accordian” Patience where whenever the card can be moved left 3 it prioritizes that over moving left 1.
 
 ### Files
 

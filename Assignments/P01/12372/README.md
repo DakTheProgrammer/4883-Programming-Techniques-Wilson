@@ -2,7 +2,7 @@
 ### Dakota Wilson 
 ### Description:
 
-This program is written in c++ and it checks and sees if object with a length width and hight can fit into a 20x20x20 suitcase.
+This program is written in C++ and it checks and sees if object with a length width and hight can fit into a 20x20x20 suitcase.
 
 ### Files
 

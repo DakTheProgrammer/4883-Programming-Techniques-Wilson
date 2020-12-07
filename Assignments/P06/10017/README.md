@@ -2,7 +2,7 @@
 ### Dakota Wilson 
 ### Description:
 
-This program is written in c++ and it finds the tower of hanoi for the given numbers of moves.
+This program is written in C++ and it finds the tower of hanoi for the given numbers of moves.
 
 ### Files
 

@@ -2,7 +2,7 @@
 ### Dakota Wilson 
 ### Description:
 
-This program is written in c++ and it finds the average amount of trees in a given set
+This program is written in C++ and it finds the average amount of trees in a given set
 
 ### Files
 

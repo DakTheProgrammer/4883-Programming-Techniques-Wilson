@@ -2,7 +2,7 @@
 ### Dakota Wilson 
 ### Description:
 
-This program is written in c++ and it takes a series of donations and adds them up until it needs to be reported which causes the total accrued to be printed.
+This program is written in C++ and it takes a series of donations and adds them up until it needs to be reported which causes the total accrued to be printed.
 
 ### Files
 

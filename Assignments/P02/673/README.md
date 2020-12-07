@@ -2,7 +2,7 @@
 ### Dakota Wilson 
 ### Description:
 
-This program is written in c++ and it takes in a set of parentheses and brackets and uses a stack to see if it is balanced 
+This program is written in C++ and it takes in a set of parentheses and brackets and uses a stack to see if it is balanced 
 
 ### Files
 

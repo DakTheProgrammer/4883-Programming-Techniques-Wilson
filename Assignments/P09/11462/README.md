@@ -2,7 +2,7 @@
 ### Dakota Wilson 
 ### Description:
 
-This program is written in c++ and it sorts the ages of a given set of people
+This program is written in C++ and it sorts the ages of a given set of people
 
 ### Files
 

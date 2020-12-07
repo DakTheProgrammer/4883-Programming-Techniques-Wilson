@@ -2,7 +2,7 @@
 ### Dakota Wilson 
 ### Description:
 
-This program is written in c++ and it takes in a string of characters in beiju text form and reorients it to be in plain text. 
+This program is written in C++ and it takes in a string of characters in beiju text form and reorients it to be in plain text. 
 
 ### Files
 

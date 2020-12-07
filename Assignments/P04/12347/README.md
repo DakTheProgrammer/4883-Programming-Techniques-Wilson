@@ -2,7 +2,7 @@
 ### Dakota Wilson 
 ### Description:
 
-This program is written in c++ and it takes in a pre ordered output for a given binary search tree then with recursion prints out the post order output.
+This program is written in C++ and it takes in a pre ordered output for a given binary search tree then with recursion prints out the post order output.
 
 ### Files
 

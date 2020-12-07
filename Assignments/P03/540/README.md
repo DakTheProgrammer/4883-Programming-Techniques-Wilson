@@ -2,7 +2,7 @@
 ### Dakota Wilson 
 ### Description:
 
-This program is written in c++ and it takes in series of groups and there numbers and with that it uses a team system of queues that prints them in order of which team is in the front. 
+This program is written in C++ and it takes in series of groups and there numbers and with that it uses a team system of queues that prints them in order of which team is in the front. 
 
 ### Files
 

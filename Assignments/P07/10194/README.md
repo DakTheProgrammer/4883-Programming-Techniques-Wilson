@@ -2,7 +2,7 @@
 ### Dakota Wilson 
 ### Description:
 
-This program is written in c++ and it finds the table for scoring a soccer league/tournament
+This program is written in C++ and it finds the table for scoring a soccer league/tournament
 
 ### Files
 
