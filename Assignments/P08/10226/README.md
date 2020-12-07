@@ -19,4 +19,5 @@ This program is written in C++ and it finds the average amount of trees in a giv
 
 - *https://www.cplusplus.com/reference/map/map/*
     - Used to understand map and its iterator
-
+- *https://stackoverflow.com/questions/33975810/c-counting-map*
+    - Used to understand incrementing and counting with a map
